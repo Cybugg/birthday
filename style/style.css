@@ -1,0 +1,39 @@
+:root{
+    --primary:yellow;
+}
+
+body{
+    box-sizing: border-box;
+    background: linear-gradient(),url("../public/images/3px-tile.png");
+    margin: 0;
+    padding: 0;
+
+}
+.icon-header{
+    font-family: 'Henny Penny', cursive;;
+}
+.pic1{
+    border-radius: 50%;
+    border: 10px rgba(255, 183, 0, 0.9) solid;
+    overflow: hidden;
+}
+
+.from{
+    text-align: right;
+    font-family: 'Henny Penny', cursive;
+    text-decoration: wavy;
+}
+.nice{
+    background-color: rgb(229, 161, 237);
+}
+.balloons{
+    animation: 4s animate infinite;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(50px);
+    }
+    100%{
+       transform: translateY(0); 
+    }
+}
