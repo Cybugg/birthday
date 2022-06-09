@@ -1,5 +1,5 @@
 :root{
-    --primary:yellow;
+    --primary:rgb(229, 161, 237);
 }
 
 body{
@@ -24,7 +24,7 @@ body{
     text-decoration: wavy;
 }
 .nice{
-    background-color: rgb(229, 161, 237);
+    background-color: var(--primary);
 }
 .balloons{
     animation: 4s animate infinite;
